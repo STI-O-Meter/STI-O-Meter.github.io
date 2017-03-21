@@ -1,20 +1,44 @@
 <!DOCTYPE html>
-<!-- All libraries and sources used will be documented in the following comment line:
-	1. imported font librarie from google [used to obtain "Lobster" font]
- -->
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<link rel="icon" href="../../favicon.ico">
+<!-- This is the index file for the Risk-O-Meter website. Risk-O-Meter was created with 
+	the intended use for educating young adults on how at risk thay are for catching STIs.
+	No personal information provided to Risk-O-Meter will be kept on record. Any information provided to Risk-O-Meter that is not statistical will be discarded immediately; otherwise it will be saved to an online database for the explicit use of informing Kern County Public Health on trends/behaioral habits of the young adults.
+-->
 
-		<title>Risk-O-Meter</title>
-	</head>
-	<!--Start of Tawk.to Script-->
+<!-- All libraries and sources used will be documented in the following comment line:
+	1.	Imported font librarie from google [Used to obtain "Lobster" font]
+	2.	Used javascript provided from tawk.to [Used for the implimentation of the chat surver]
+	3.	Imported the bootstrap library [Used for the general design of the
+		website (specific implamentation will be documented as it gets used)]
+ -->
+<html lang="en">
+<style>
+	.jumbotron{
+		backgrounf-color: #ffffcc;
+		color: white;
+	}
+	.tab-content{
+		border-left: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		padding: 10px;
+	}
+</style>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../../favicon.ico">
+	<!-- google font librery -->
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+	<title>Risk-O-Meter</title>
+
+</head>
+<!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -27,13 +51,20 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
-	<body>
-		<div style="text-align:center;"><img src="images/Capture.PNG" /></div>
-	</body>
+<!-- Start of body design script -->
+<body>
+	<div style="text-align:center;"><img src="images/Capture.PNG" /></div>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+<!-- End of body design script -->
 </html>
-<!-- // TO DO LIST
-1. 	general design
-2. 	make a navbar 
-3.	make sure to add links to the resurce after they are quoted. maby via hyper link 
- 
+<!-- TO DO LIST
+1. 	Make basic skeleton for body and head tages
+2.	Add bootstrap into repository
+3.	Use bootstrap for general design (whatever gets finalized)
+4.	Resurch multi page construction
 -->
